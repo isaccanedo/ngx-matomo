@@ -1,0 +1,83 @@
+{
+  "name": "ngx-matomo",
+  "version": "1.0.0-rc.1",
+  "author": "Arnaud Mouronval <arnaud.mouronval@gmail.com>",
+  "description": "Matomo (aka. Piwik) web analytics for Angular 12+ applications.",
+  "keywords": [
+    "matomo",
+    "piwik",
+    "angular",
+    "aot",
+    "web analytics"
+  ],
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Arnaud73/ngx-matomo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Arnaud73/ngx-matomo/issues"
+  },
+  "homepage": "https://github.com/Arnaud73/ngx-matomo#readme",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test",
+    "test:ci": "ng test --watch=false --progress=false --code-coverage --browsers=ChromeHeadlessCI",
+    "lint": "ng lint",
+    "clean": "rimraf dist/*",
+    "format:write": "prettier projects/**/*.{ts,json,md,scss} --write",
+    "format:test": "prettier projects/**/*.{ts,json,md,scss} --list-different",
+    "compodoc": "compodoc -c ./.compodocrc.json",
+    "copy-license": "copyfiles ./LICENSE ./dist/ngx-matomo",
+    "copy-readme": "copyfiles ./README.md ./dist/ngx-matomo",
+    "copy-files": "npm run copy-license && npm run copy-readme",
+    "release": "standard-version"
+  },
+  "dependencies": {
+    "@angular/animations": "~12.0.0",
+    "@angular/common": "~12.0.0",
+    "@angular/compiler": "~12.0.0",
+    "@angular/core": "~12.0.0",
+    "@angular/forms": "~12.0.0",
+    "@angular/platform-browser": "~12.0.0",
+    "@angular/platform-browser-dynamic": "~12.0.0",
+    "@angular/router": "~12.0.0",
+    "rxjs": "~6.6.0",
+    "tslib": "^2.1.0",
+    "zone.js": "~0.11.4"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~12.0.0",
+    "@angular-eslint/builder": "12.0.0",
+    "@angular-eslint/eslint-plugin": "12.0.0",
+    "@angular-eslint/eslint-plugin-template": "12.0.0",
+    "@angular-eslint/schematics": "12.0.0",
+    "@angular-eslint/template-parser": "12.0.0",
+    "@angular/cli": "~12.0.0",
+    "@angular/compiler-cli": "~12.0.0",
+    "@compodoc/compodoc": "^1.1.11",
+    "@types/jasmine": "~3.6.0",
+    "@types/jasminewd2": "~2.0.3",
+    "@types/node": "^12.11.1",
+    "@typescript-eslint/eslint-plugin": "4.23.0",
+    "@typescript-eslint/parser": "4.23.0",
+    "copyfiles": "^2.4.0",
+    "eslint": "^7.26.0",
+    "jasmine-core": "~3.7.0",
+    "karma": "~6.3.0",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-coverage": "~2.0.3",
+    "karma-jasmine": "~4.0.0",
+    "karma-jasmine-html-reporter": "^1.5.0",
+    "ng-packagr": "^12.0.0",
+    "prettier": "^2.2.0",
+    "rimraf": "^3.0.2",
+    "standard-version": "^9.0.0",
+    "typescript": "~4.2.3"
+  },
+  "standard-version": {}
+}
