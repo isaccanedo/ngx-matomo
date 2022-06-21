@@ -1,8 +1,8 @@
 # ngx-Matomo 
 
-Wrapper for Matomo (aka. Piwik) analytics tracker for applications based on Angular 9, 10, 11 or 12.
+Wrapper for Matomo (também conhecido como Piwik) rastreador analítico para aplicativos baseados em Angular 9, 10, 11 ou 12.
 
-If your application is based on Angular 5, 6, 7 or 8, please consider using the latest 0.x version of this library instead.
+Se seu aplicativo for baseado em Angular 5, 6, 7 ou 8, considere usar a versão 0.x mais recente desta biblioteca.
 
 ## Installation
 
