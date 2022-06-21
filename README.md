@@ -125,10 +125,6 @@ Also, this new release of ngx-Matomo has been rebuilt with Angular CLI v9. As a 
 
 This module is inspired from [Angular2Piwik](https://github.com/awronka/Angular2Piwik), which was also inspired from [Angulartics 2](https://github.com/angulartics/angulartics2).
 
-## License
-
-[MIT](LICENSE)
-
 ## See also
 
 Matomo's [site](https://developer.matomo.org/) has the detailed documentation on how to use Matomo and integrate it in an application.
