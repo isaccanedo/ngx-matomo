@@ -6,7 +6,7 @@ Se seu aplicativo for baseado em Angular 5, 6, 7 ou 8, considere usar a versão 
 
 ## Installation
 
-Use `npm` or `yarn` to add the module to your current project:
+Use `npm` or `yarn` para adicionar o módulo ao seu projeto atual:
 
 ```shell session
 npm install --save ngx-matomo
