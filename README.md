@@ -4,9 +4,9 @@ Wrapper for Matomo (também conhecido como Piwik) rastreador analítico para apl
 
 Se seu aplicativo for baseado em Angular 5, 6, 7 ou 8, considere usar a versão 0.x mais recente desta biblioteca.
 
-## Installation
+## Instalação
 
-Use `npm` or `yarn` para adicionar o módulo ao seu projeto atual:
+Use `npm` ou `yarn` para adicionar o módulo ao seu projeto atual:
 
 ```shell session
 npm install --save ngx-matomo
